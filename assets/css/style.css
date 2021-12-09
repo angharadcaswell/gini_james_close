@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,700;1,800&display=swap');
+
+h1 {
+    font-family: 'Antic', sans-serif;
+    font-size: 100px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 150;
+    color: #fff;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+a:hover { 
+    text-decoration: none; 
+    color: grey;
+}
+
+body, html {
+    height: 100%;
+  }
+
+/* Home page */
+
+.homepage_image{
+        position: relative;
+        /* The image used */
+        background-image: url('/assets/images/image_holder.png');
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+.homepage_content{
+    height: 1000px;
+}
+
+.title_homepage {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
+
+.nav_bar_home{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    text-align: center;
+
+}
