@@ -61,3 +61,15 @@ body, html {
     text-align: center;
 
 }
+
+.gallery_image {
+    color: grey;
+    background: url(/assets/images/holder_gini.png);
+    margin:0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+.homepage-links h2 {
+    color: grey;
+}
