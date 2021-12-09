@@ -31,7 +31,7 @@ body, html {
 .homepage_image{
         position: relative;
         /* The image used */
-        background-image: url('/assets/images/seals.jpg');
+        background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/382/original/DSC_0857.jpg?1639068537');
       
         /* Full height */
         height: 100%; 
