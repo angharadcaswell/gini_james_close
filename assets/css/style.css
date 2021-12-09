@@ -62,30 +62,141 @@ body, html {
 
 }
 
-.gallery_image {
-    background: url(/assets/images/holder_gini.png);
+.gallery_image, .about_image, .contact_image {
     height: 300px;
     width: 300px;
     background-repeat: no-repeat !important;
     display: block;
     margin: 0 auto; 
 }
+.about_image {
+    background: url(/assets/images/holder_gini.png);
+}
+
+.gallery_image {
+    background: url(/assets/images/hold-link.png);
+}
+
+.contact_image {
+    background: url(/assets/images/hold_cpontact.png);
+}
 
 .homepage-links {
-background: #A3B18A;
-padding-bottom: 100px;
-padding-top: 100px;
+    background: #A3B18A;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .homepage-links h2 {
     color: #fff;
     text-align: center;
     padding: 50px 300px 50px 300px;
-
 }
 
 .homepage-links a {
     padding-top: 150px;
     font-size: 50px;
     text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #3b563e;
+
+}
+footer a {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+
+ 
+/* Nav bar */
+.nav {
+    background: #DAD7CD; 
+}
+.nav h1 {
+    float: left;
+    font-size: 60px;
+    padding-left: 20px;
+}
+#menu ul {
+    float: right;
+    list-style-type:none;
+}
+
+#menu li {
+    float: left;
+    margin-right: 30px;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type:none;
+
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.active {
+    border-bottom: 1px solid #FFF;
+}
+
+
+/* About me */
+.about_me{
+    background: #DAD7CD; 
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.about_me h2 {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about_me p {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.gini_background {
+    position: relative;
+        /* The image used */
+        background-image: url('/assets/images/gini2.jpeg');
+        /* opacity: 0.8; */
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding-top: 15px;
+
+      }
+      
+
+.gini_content {
+   background-color: rgba(163, 177, 138, 0.5);
+    margin-top: 10px;
+
 }
