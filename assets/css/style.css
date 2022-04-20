@@ -78,7 +78,7 @@ body, html {
 }
 
 .contact_image {
-    background: url(/assets/images/hold_cpontact.png);
+    background: url(/assets/images/gini_close.png);
 }
 
 .homepage-links {
@@ -152,14 +152,14 @@ li {
 
 /* About me */
 .about_me{
-    background: #DAD7CD; 
+    background: #6c757d; 
     height: 100%;
     padding-top: 30px;
     padding-bottom: 100px;
 }
 
 .about_me h2 {
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
@@ -196,10 +196,19 @@ li {
       
 
 .gini_content {
-   background-color: rgba(163, 177, 138, 0.5);
+   background-color: rgba(93, 94, 90, 0.7);
     margin-top: 5px;
+    height: 95%;
 
 }
 
 /* Contact me page */
+
+
+/* Gallery */
+
+.gallery-style {
+    background-color: #6c757d;
+    padding: 10px;
+}
 
