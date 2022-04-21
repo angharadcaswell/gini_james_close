@@ -116,16 +116,20 @@ footer a {
  
 /* Nav bar */
 .nav {
-    background: #DAD7CD; 
+    background: #525251; 
 }
 .nav h1 {
     float: left;
     font-size: 60px;
-    padding-left: 20px;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 #menu ul {
     float: right;
     list-style-type:none;
+    padding-top: 8px;
+    padding-bottom:8px;
 }
 
 #menu li {
@@ -171,7 +175,7 @@ li {
     padding-bottom: 5px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 
@@ -208,7 +212,11 @@ li {
 /* Gallery */
 
 .gallery-style {
-    background-color: #6c757d;
-    padding: 10px;
+    background-color: #c5ccd3;
+    padding: 50px 30px 50px;
+}
+
+.imagerow{
+    margin-top: 30px;
 }
 
