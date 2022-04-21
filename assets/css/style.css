@@ -220,3 +220,49 @@ li {
     margin-top: 30px;
 }
 
+/* Contact me */
+
+.contact-area{
+      /* The image used */
+      background-image: url('/assets/images/DSC_0098.jpg');
+      /* opacity: 0.8; */
+      background-repeat: no-repeat;
+      background-size: auto;
+      /* Full height */
+      height: 100%;
+}
+
+.contactForm {
+    /* margin: auto; */
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 450px;
+    max-height: 550px;
+    margin-top: 80px;
+  }
+
+
+input[type="text"],
+input[type="email"] {
+
+  display: block;
+  text-align: left;
+  margin: 10px;
+  border: none;
+  
+}
+
+textarea {
+  text-align: left;
+  
+  margin: 10px;
+  border: none;
+  max-width: 90%;
+}
+
+.blackButton {
+    color: #FFF;
+    background-color: saddlebrown;
+}
+
