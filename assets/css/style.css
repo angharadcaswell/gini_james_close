@@ -224,7 +224,7 @@ li {
 
 .contact-area{
       /* The image used */
-      background-image: url('/assets/images/DSC_0098.jpg');
+      background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/700/original/DSC_0098.jpg?1650884058');
       /* opacity: 0.8; */
       background-repeat: no-repeat;
       background-size: auto;
