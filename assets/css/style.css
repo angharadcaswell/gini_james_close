@@ -206,7 +206,6 @@ li {
 
 }
 
-/* Contact me page */
 
 
 /* Gallery */
@@ -216,9 +215,6 @@ li {
     padding: 50px 30px 50px;
 }
 
-.imagerow{
-    margin-top: 30px;
-}
 
 /* Contact me */
 
@@ -241,6 +237,27 @@ li {
     max-height: 550px;
     margin-top: 80px;
   }
+
+  .mobile-form {
+      background-color: #d6d6d6;
+      padding: 5px;
+
+  }
+
+  .mobile-form-section{
+      background-color:#A3B18A;
+      padding: 10px 30px;
+  }
+
+  .mobile-form-section h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.mobile-form-section-img {
+    width: 100%;
+}
 
 
 input[type="text"],
@@ -266,3 +283,67 @@ textarea {
     background-color: saddlebrown;
 }
 
+
+/* Elements to CHANGE for mobile devices */
+@media screen and (max-width: 480px) {
+    .homepage-links {
+        background: #A3B18A;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .homepage-links h2 {
+        color: #fff;
+        text-align: center;
+        padding: 50px 50px 50px 50px;
+        font-size: 30px;
+    }
+
+    .gallery_image, .about_image, .contact_image {
+        height: 200px;
+        width: 200px;
+        background-repeat: no-repeat !important;
+        display: block;
+        margin: auto; 
+        margin-bottom: 5px;
+    }
+
+    .homepage-links a {
+        padding-top: 100px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav h1 {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin: auto;
+    }
+
+    .nav h2 {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .about_me h2 {
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .about_me p {
+        padding-top: 2px;
+        padding-left: 5px;
+        padding-bottom: 2px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+    
+    }
+
+    
+}
