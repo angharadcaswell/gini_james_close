@@ -70,15 +70,15 @@ body, html {
     margin: 0 auto; 
 }
 .about_image {
-    background: url(/assets/images/gini_cam.png);
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/705/original/gini_cam.png?1650884896');
 }
 
 .gallery_image {
-    background: url(/assets/images/hold-link.png);
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/706/original/hold-link.png?1650884932');
 }
 
 .contact_image {
-    background: url(/assets/images/gini_close.png);
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/707/original/gini_close.png?1650884958');
 }
 
 .homepage-links {
@@ -182,7 +182,7 @@ li {
 .gini_background {
     position: relative;
         /* The image used */
-        background-image: url('/assets/images/gini2.jpeg');
+        background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/708/original/gini2.jpeg?1650885280');
         /* opacity: 0.8; */
       
         /* Full height */
