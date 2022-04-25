@@ -219,6 +219,7 @@ li {
 /* Contact me */
 
 .contact-area{
+        position: relative;
       /* The image used */
       background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/700/original/DSC_0098.jpg?1650884058');
       /* opacity: 0.8; */
@@ -226,6 +227,22 @@ li {
       background-size: auto;
       /* Full height */
       height: 100%;
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        padding-top: 15px;
+        padding-right: 100px;
+}
+
+.contact-area h2 {
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 20px 100px;
+    font-weight: 500;
 }
 
 .contactForm {
