@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-weight: 150;
     color: #fff;
 }
@@ -84,13 +84,13 @@ body, html {
 .homepage-links {
     background: #A3B18A;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .homepage-links h2 {
     color: #fff;
     text-align: center;
-    padding: 50px 300px 50px 300px;
+    padding: 20px 300px 50px 300px;
 }
 
 .homepage-links a {
@@ -300,6 +300,35 @@ textarea {
     background-color: saddlebrown;
 }
 
+.insta-row {
+    background-color:darkolivegreen;
+    
+}
+
+.insta-row img {
+    max-height: 300px;
+    max-width: 230px;
+    display: block;
+    padding-top: 20px;
+    margin: auto;
+    
+}
+
+.insta-row a {
+    font-size: 40px;
+    display: block;
+    margin: auto;
+}
+
+.insta-row ul {
+    padding-top: 60px;
+    text-align: center;
+    color: #FFF;
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
 
 /* Elements to CHANGE for mobile devices */
 @media screen and (max-width: 480px) {
@@ -314,6 +343,7 @@ textarea {
         text-align: center;
         padding: 50px 50px 50px 50px;
         font-size: 30px;
+        font-family:'Raleway', sans-serif;
     }
 
     .gallery_image, .about_image, .contact_image {
@@ -327,8 +357,14 @@ textarea {
 
     .homepage-links a {
         padding-top: 100px;
-        font-size: 20px;
+        font-size: 25px;
         text-align: center;
+    }
+
+    .homepage-links h2 {
+        font-size: 20px;
+        font-family:'Raleway', sans-serif;
+
     }
 
     .nav h1 {
@@ -350,6 +386,7 @@ textarea {
         padding-top: 5px;
         padding-left: 5px;
         padding-right: 5px;
+        font-family:'Raleway', sans-serif;
     }
     
     .about_me p {
